@@ -4,13 +4,13 @@ import { type PokemonListState, PokemonListContext } from './pokemon-list-contex
 
 export const PokemonProvider = component$(() => {
 	const pokemonGame = useStore<PokemonGameState>({
-		pokemonId: 4,
+		pokemonId: 1,
 		isPokemonVisible: true,
 		showBackImage: false,
 	});
   
 	const pokemonList = useStore<PokemonListState>({
-    currentPage: 1,
+    currentPage: 0,
 		isLoading: false,
 		pokemons: [],
 	});

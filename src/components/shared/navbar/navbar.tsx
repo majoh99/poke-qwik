@@ -14,6 +14,12 @@ export default component$(() => {
 				</div>
 				<ul class="flex gap-3">
 					<li>
+						<Link href="/login">Login</Link>
+					</li>
+					<li>
+						<Link href="/dashboard">Admin Dashboard</Link>
+					</li>
+					<li>
 						<Link href="/pokemons/list-ssr/">SSR-List</Link>
 					</li>
           <li>
